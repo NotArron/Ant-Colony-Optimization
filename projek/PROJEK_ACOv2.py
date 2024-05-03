@@ -221,7 +221,7 @@ plt.ylabel('Y Coordinate')
 plt.title('Cities')
 
 # import gambar dari file yang kita punya
-image = imread("map_USA.jpg")
+image = imread("projek\map_USA.jpg")
 
 # render gambar dan juga mengatur ukurannya
 plt.imshow(image, extent=[min(path_x)*1.15, max(path_x)*1.07, min(path_y)*1.18, max(path_y)*1.35])
